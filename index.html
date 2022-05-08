@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="style.css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
+    <!--ШАПКА-->
     <header>
         <div class="container">
             <div class="header">
@@ -23,10 +24,27 @@
                         <li><a href="#">О нас</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul> 
-                    <button type="button">$125</button>
+                    <button type="button" class="button">
+                        <span class="buttom-item">
+                            <img src="img/cart.svg" alt="корзина"> 
+                            <span class="button-count">5</span>
+                        </span> 
+                        <span class="button-text">$125</span> 
+                    </button>
                 </nav>
             </div>
         </div>
-    </header>
+    </header> 
+    <!--БАНЕР-->
+    <div class="bg">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li><a href="#">Главная</a></li> 
+                <li><a href="#">Меню</a></li> 
+            </ul> 
+            <h1 class="title">Наше Меню</h1> 
+            <p class="description">Выбирай из предложенного ассортимента и мы доставим блюдо в течении часа</p>
+        </div>
+    </div>
 </body>
 </html>
