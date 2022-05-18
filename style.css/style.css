@@ -219,13 +219,16 @@ header {
 .menu-grid { 
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
+    gap: 50px 20px; 
+    text-align: center;
+    margin-bottom: 100px;
 } 
 .menu-grid-cover { 
     width: 100%; 
     height: 430px; 
     position: relative; 
     overflow: hidden; 
+    margin-bottom: 23px;
 } 
 .menu-grid-cover img {  
     position: absolute; 
@@ -240,32 +243,33 @@ header {
     font-size: 30px; 
     font-weight: 600; 
     color: #1B2A49; 
-    padding-top: 20px; 
     margin: 0;
 } 
 .menu-grid-price { 
     font-size: 20px; 
     font-weight: 700; 
     color: #979797; 
-    margin: 0; 
-    padding-top: 5px;
+    margin-top: 8px; 
+    margin-bottom: 22px; 
 } 
 .menu-grid-btn { 
-    display: inline-flex; 
+    display: flex; 
     background-color: #FBB731; 
     border-radius: 5px; 
     border: none; 
-    padding: 10px 30px; 
-    margin-top: 20px; 
-    margin-bottom: 50px;
+    padding: 10px 32px; 
+    margin: 0 auto;  
+    align-items: center; 
+    justify-content: center; 
+    gap: 9px;
 } 
 .menu-grid-icon { 
     background-image: url(../img/cart-menu.svg); 
-    color: #443737; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
     width: 18px; 
     height: 18px; 
-    padding-right: 5px; 
-    background-repeat: no-repeat;
+    display: block;
 } 
 .menu-grid-text { 
     font-size: 14px; 
